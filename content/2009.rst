@@ -1,0 +1,43 @@
+Konferencija PyCon-LT 2009
+##########################
+
+:date: 2009-04-26
+:slug: 2009
+
+.. container:: pranesimai
+
+   `Pranešimų pristatymai`_
+
+   `Pranešimų video`_
+
+.. class:: time-and-location
+
+Konferencija vyko **2009 m. balandžio 26 d.**, šeštadienį, `KTU gimnazijoje`_,
+`Studentų g. 65`_, Kaune.
+
+.. class:: center
+
+`Skelbimas + dienotvarkė`_
+
+.. class:: center
+
+`Dalyviai ir siūlomos temos`_
+
+.. class:: moreinfo
+
+| Daugiau informacijos `el. p. konferencijoje`_ ir `Google+`_.
+
+.. class:: koordinatorius
+
+| Koordinatorius: Jurgis Pralgauskis <jurgis@akl.lt>, 861677613
+
+.. include:: partials/footer.rst
+
+.. _Dalyviai ir siūlomos temos: http://spreadsheets.google.com/ccc?key=p0kaOeERyOQhQGFYyHTVNDQ
+.. _Skelbimas + dienotvarkė: http://files.akl.lt/users/jurgis/python/pycon-LT2009/pycon-LT2009_skelbimas.pdf
+.. _Pranešimų pristatymai: http://files.akl.lt/incoming/pycon-2009/pranesimai/
+.. _Pranešimų video: http://pykonf.albinas.lt/2009/
+.. _KTU gimnazijoje: http://ktug.lt/
+.. _Studentų g. 65: http://osm.org/go/0lYBk9uWU--?m=
+.. _el. p. konferencijoje: http://www.konferencijos.lt/mailman/listinfo/python
+.. _Google+: https://plus.google.com/communities/108018939812342947290

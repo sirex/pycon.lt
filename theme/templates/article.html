@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block head %}
+  {{ super() }}
+  {% for keyword in article.keywords %}
+    <meta name="keywords" contents="{{keyword}}" />
+  {% endfor %}
+
+  {% for description in article.description %}
+    <meta name="description" contents="{{description}}" />
+  {% endfor %}
+
+  {% for tag in article.tags %}
+    <meta name="tags" contents="{{tag}}" />
+  {% endfor %}
+{% endblock %}
+
+{% block subtitle %}{{ article.title }}{% endblock %}
+
+{% block content %}
+<section id="content" class="body">
+  <div class="entry-content">
+    {{ article.content }}
+  </div><!-- /.entry-content -->
+</section>
+{% endblock %}

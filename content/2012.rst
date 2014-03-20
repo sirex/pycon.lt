@@ -1,0 +1,32 @@
+Konferencija PyCon-LT 2012
+##########################
+
+:date: 2012-04-28
+:slug: 2012
+
+.. container:: pranesimai
+
+   `Pranešimų pristatymai <http://pycon.akl.lt/2012/programa>`_
+
+   `YouTube grojaraštis <http://www.youtube.com/playlist?list=PL6A2A7C104D79DB89>`_
+
+.. class:: time-and-location
+
+Konferencija vyko **2012 m. balandžio 28 d.**, šeštadienį, **nuo 11:30 iki
+17:00**, `Vilniaus kolegijos elektronikos ir informatikos fakultete`_, `J.
+Jasinskio g. 15`_, Vilniuje, 209 auditorijoje.
+
+.. class:: moreinfo
+
+| Daugiau informacijos `el. p. konferencijoje`_ ir `Google+`_.
+
+.. class:: koordinatorius
+
+| Koordinatorius: Mantas Zimnickas <sirexas@gmail.com>
+
+.. include:: partials/footer.rst
+
+.. _Vilniaus kolegijos elektronikos ir informatikos fakultete: http://eif.viko.lt/
+.. _J. Jasinskio g. 15: http://osm.org/go/0lP6Pcr5Q--?m=
+.. _el. p. konferencijoje: http://www.konferencijos.lt/mailman/listinfo/python
+.. _Google+: https://plus.google.com/communities/108018939812342947290

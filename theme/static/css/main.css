@@ -1,0 +1,124 @@
+body {
+    font-family: arial, "lucida console", sans-serif;
+}
+
+#wrapper {
+    width: 460px;
+    margin: 0px auto;
+}
+
+/*
+p, body > div, section, header, footer, dl, h1, h2, h3, h4, h5, h6 {
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+p, body > div {
+    /*max-width: 460px;*/
+    text-align: justify;
+}
+
+dl {
+    max-width: 580px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0px;
+}
+
+.pylogo, .tagline, .navbar, .maplink, .programlink, .registerlink, .moreinfo, .time-and-location, .playlistlink {
+    text-align: center;
+}
+
+.tagline {
+    color: grey;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.koordinatorius {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.zen {
+    max-width: 230px;
+    font-size: 12px; 
+    font-family: sans-serif;
+    color: grey;
+    text-decoration: none;
+    margin: 2em auto;
+}
+
+.pranesimai {
+    border: 1px solid orange;
+    width: 300px;
+    margin: 2em auto;
+    padding: 1em;
+    text-align: center;
+}
+.pranesimai p {
+    text-align: center;
+}
+.pranesimai a {
+    font-weight: bold;
+}
+
+dl.programa dt {
+    font-weight: bold;
+    color: #444;
+    float: left;
+    clear: left;
+    margin-right: 1em;
+}
+
+dl.programa dd {
+    color: #666;
+    margin-bottom: 6px;
+    margin-left: 5em;
+    text-indent: -1em;
+}
+
+dl.programa span.title {
+    color: #222;
+    font-weight: bold;
+}
+
+dl.programa dd a {
+    color: #666;
+    font-size: small;
+    padding-left: 1ex;
+    position: relative;
+    bottom: 1px;    
+}
+
+div.ads-afr {
+    float: left;
+    padding-top: 3px;
+}
+
+#contentinfo {
+    font-size: small;
+    color: grey;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}

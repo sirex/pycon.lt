@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+        {% block head %}
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
+        {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+        {% endif %}
+        {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+        {% endif %}
+        {% endblock head %}
+</head>
+
+<body id="index" class="home">
+  <div id="wrapper">
+  <header id="banner" class="body">
+    <h1>{% block subtitle %}{{ SITESUBTITLE }}{% endblock %}</h1>
+    <div class="pylogo">
+      <a href="http://python.org" target="_blank">
+        <!-- http://upload.wikimedia.org/wikipedia/en/thumb/0/06/Python_logo.svg/200px-Python_logo.svg.png -->
+        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/pylogo.gif"
+             alt="Python" />
+      </a>
+    </div>
+    <div class="tagline">Kad programuoti būtų paprasta ir efektyvu!</div>
+  </header>
+  <nav id="menu" class="navbar">
+  {% for title, link in MENUITEMS %}
+    {% if link == article.url %}
+    <strong>{{ title }}</strong>
+    {% else %}
+    <a href="{{ link }}">{{ title }}</a>
+    {% endif %}
+    {% if not loop.last %} - {% endif %}
+  {% endfor %}
+  </nav>
+  {% block content %}
+  {% endblock %}
+  <footer id="contentinfo" class="body">
+    <address id="about" class="vcard body">
+    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+    which takes great advantage of <a href="http://python.org">Python</a>.
+    </address><!-- /#about -->
+  </footer><!-- /#contentinfo -->
+  </div>
+</body>
+</html>
