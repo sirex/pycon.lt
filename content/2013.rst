@@ -6,12 +6,33 @@ Konferencija PyCon-LT 2013
 
 .. container:: pranesimai
 
-    `Pranešimų pristatymai <http://pycon.akl.lt/2012/programa>`_
+   `Pranešimų pristatymai`_
 
 .. class:: time-and-location
 
 Konferencija vyko **2013 m. balandžio 27 d.**, šeštadienį, **nuo 11:00 iki
 19:00**, `Hub Vilnius`_, `Šermukšnių 6A`_, Vilniuje.
+
+.. include:: partials/code-of-conduct-note.rst
+
+Visi norintys prisidėti prie konferencijos organizavimo, pavyzdžiui sukuriant
+gražų renginio puslapį ar skelbimą, yra maloniai kviečiami prisijungti ir
+pasisakyti. 
+
+Rėmėjai
+=======
+
+.. container:: ads
+
+   .. figure:: {filename}/images/afr-logo.jpg
+      :width: 220px
+      :alt: Alliance for Recruitment
+      :target: http://www.afr.lt/
+
+   .. figure:: {filename}/images/bribespot-logo.jpg
+      :width: 220px
+      :alt: Bribespot
+      :target: http://bribespot.com/
 
 .. class:: moreinfo
 
@@ -23,6 +44,7 @@ Konferencija vyko **2013 m. balandžio 27 d.**, šeštadienį, **nuo 11:00 iki
 
 .. include:: partials/footer.rst
 
+.. _Pranešimų pristatymai: 2013/programa.html
 .. _Hub Vilnius: http://hubvilnius.lt/
 .. _Šermukšnių 6A: http://osm.org/go/0lP6l1aBT?m=
 .. _el. p. konferencijoje: http://www.konferencijos.lt/mailman/listinfo/python

@@ -13,6 +13,18 @@ Konferencija vyks `2014 m. balandžio 26 d.`_, šeštadienį, **nuo 11:00 iki
 
     `Registracija`_
 
+.. include:: partials/code-of-conduct-note.rst
+
+Rėmėjai
+=======
+
+.. container:: ads
+
+   .. figure:: {filename}/images/afr-logo.jpg
+      :width: 220px
+      :alt: Programmers of Vilnius
+      :target: http://www.pov.lt/
+
 .. class:: moreinfo
 
 | Daugiau informacijos `el. p. konferencijoje`_ ir `Google+`_.
@@ -20,13 +32,13 @@ Konferencija vyks `2014 m. balandžio 26 d.`_, šeštadienį, **nuo 11:00 iki
 .. class:: koordinatorius
 
 | Koordinatoriai: Albertas Gimbutas <albertas.gimbutas@mii.vu.lt>
-| ir Maintas Zimnickas <sirexas@gmail.com>
+| ir Mantas Zimnickas <sirexas@gmail.com>
 
 .. include:: partials/footer.rst
 
 .. _2014 m. balandžio 26 d.: https://www.google.com/calendar/embed?src=2jg1fs4q0ts0kmgrgp3268gh9g%40group.calendar.google.com&ctz=Europe/Vilnius
 .. _Registracija: https://docs.google.com/forms/d/1AF_SwlQ-vCC0CWpeC_AxjMOfOjNvRuw6GfFN8P0xgUc/viewform
-.. _VU MIF: http://mif.vu.lt/lt2/
+.. _VU MIF: http://mif.vu.lt/
 .. _Naugarduko g. 24: http://osm.org/go/0lP6hOmlJ--?m=
 .. _el. p. konferencijoje: http://www.konferencijos.lt/mailman/listinfo/python
 .. _Google+: https://plus.google.com/communities/108018939812342947290

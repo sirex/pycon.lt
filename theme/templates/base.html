@@ -28,11 +28,11 @@
     <div class="tagline">Kad programuoti būtų paprasta ir efektyvu!</div>
   </header>
   <nav id="menu" class="navbar">
-  {% for title, link in MENUITEMS %}
-    {% if link == article.url %}
-    <strong>{{ title }}</strong>
+  {% for item in articles %}
+    {% if article and item.url == article.url %}
+    <strong>{{ item.slug }}</strong>
     {% else %}
-    <a href="{{ link }}">{{ title }}</a>
+    <a href="{{ SITEURL }}/{{ item.url }}">{{ item.slug }}</a>
     {% endif %}
     {% if not loop.last %} - {% endif %}
   {% endfor %}
@@ -40,6 +40,12 @@
   {% block content %}
   {% endblock %}
   <footer id="contentinfo" class="body">
+    <p class="center">
+      Šios svetainės išeities kodas:
+      <a href="https://bitbucket.org/sirex/pyconlt">
+        bitbucket.org/sirex/pyconlt
+      </a>
+    </p>
     <address id="about" class="vcard body">
     Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
     which takes great advantage of <a href="http://python.org">Python</a>.

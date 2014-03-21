@@ -93,8 +93,8 @@ dl.programa dt {
 dl.programa dd {
     color: #666;
     margin-bottom: 6px;
-    margin-left: 5em;
-    text-indent: -1em;
+    margin-left: 4em;
+    text-indent: 0em;
 }
 
 dl.programa span.title {
@@ -110,9 +110,13 @@ dl.programa dd a {
     bottom: 1px;    
 }
 
-div.ads-afr {
+.ads {
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+.ads .figure {
     float: left;
-    padding-top: 3px;
 }
 
 #contentinfo {

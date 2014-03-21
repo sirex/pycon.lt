@@ -1,6 +1,6 @@
 BASEDIR=$(CURDIR)
 
-PY=$(BASEDIR)/python
+PY=$(BASEDIR)/bin/python
 PELICAN=$(BASEDIR)/bin/pelican
 PELICANOPTS=
 
@@ -31,6 +31,9 @@ ifeq ($(DEBUG), 1)
 	PELICANOPTS += -D
 endif
 
+html: bin/pelican
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+
 bin/pelican: bin/pip
 	bin/pip install pelican
 
@@ -59,23 +62,21 @@ help:
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html'
 	@echo '                                                                       '
 
-html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
-
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
-regenerate:
+regenerate: bin/pelican
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-serve:
+serve: bin/pelican
+	@echo 'Serving at http://localhost:8000/'
 ifdef PORT
 	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
 else
 	cd $(OUTPUTDIR) && $(PY) -m pelican.server
 endif
 
-devserver:
+devserver: bin/pelican
 ifdef PORT
 	$(BASEDIR)/develop_server.sh restart $(PORT)
 else
@@ -87,7 +88,7 @@ stopserver:
 	kill -9 `cat srv.pid`
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
-publish:
+publish: bin/pelican
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 ssh_upload: publish
