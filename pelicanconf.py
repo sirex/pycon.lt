@@ -35,3 +35,10 @@ ARTICLE_EXCLUDES = ('pages', 'partials', 'images')
 
 PAGE_URL = '{slug}.html',
 PAGE_SAVE_AS = '{slug}.html'
+
+STATIC_SAVE_AS = '{path}'
+STATIC_URL = '{path}'
+STATIC_PATHS = [
+    'media',
+    'images',
+]
