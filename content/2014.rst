@@ -20,7 +20,7 @@ Rėmėjai
 
 .. container:: ads
 
-   .. figure:: {filename}/images/afr-logo.jpg
+   .. figure:: {filename}/images/pov-logo.jpg
       :width: 220px
       :alt: Programmers of Vilnius
       :target: http://www.pov.lt/
