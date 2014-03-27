@@ -25,6 +25,10 @@ Rėmėjai
       :alt: Programmers of Vilnius
       :target: http://www.pov.lt/
 
+   .. figure:: {filename}/images/hbee-logo.png
+      :alt: HacBee
+      :target: http://www.hbee.eu/
+
 .. class:: moreinfo
 
 | Daugiau informacijos `el. p. konferencijoje`_ ir `Google+`_.
