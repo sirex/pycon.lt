@@ -1,12 +1,12 @@
 Konferencija PyCon-LT 2014
 ##########################
 
-:date: 2014-04-26
+:date: 2014-05-10
 :slug: 2014
 
 .. class:: time-and-location
 
-Konferencija vyks `2014 m. balandžio 26 d.`_, šeštadienį, **nuo 11:00 iki
+Konferencija vyks `2014 m. gegužės 10 d.`_, šeštadienį, **nuo 11:00 iki
 18:00**, `VU MIF`_, `Naugarduko g. 24`_, Vilniuje.
 
 .. container:: pranesimai
@@ -40,7 +40,7 @@ Rėmėjai
 
 .. include:: partials/footer.rst
 
-.. _2014 m. balandžio 26 d.: https://www.google.com/calendar/embed?src=2jg1fs4q0ts0kmgrgp3268gh9g%40group.calendar.google.com&ctz=Europe/Vilnius
+.. _2014 m. gegužės 10 d.: https://www.google.com/calendar/embed?src=2jg1fs4q0ts0kmgrgp3268gh9g%40group.calendar.google.com&ctz=Europe/Vilnius
 .. _Registracija: https://docs.google.com/forms/d/1AF_SwlQ-vCC0CWpeC_AxjMOfOjNvRuw6GfFN8P0xgUc/viewform
 .. _VU MIF: http://mif.vu.lt/
 .. _Naugarduko g. 24: http://osm.org/go/0lP6hOmlJ--?m=
