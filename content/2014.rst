@@ -13,6 +13,8 @@ Konferencija vyks `2014 m. gegužės 10 d.`_, šeštadienį, **nuo 11:00 iki
 
     `Registracija`_
 
+Savo pranešimus galite registruoti iki gegužės 3 d.
+
 .. include:: partials/code-of-conduct-note.rst
 
 Rėmėjai
