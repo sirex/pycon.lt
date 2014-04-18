@@ -42,7 +42,7 @@ Rėmėjai
 
 .. include:: partials/footer.rst
 
-.. _2014 m. gegužės 10 d.: https://www.google.com/calendar/embed?src=2jg1fs4q0ts0kmgrgp3268gh9g%40group.calendar.google.com&ctz=Europe/Vilnius
+.. _2014 m. gegužės 10 d.: https://www.google.com/calendar/embed?src=2jg1fs4q0ts0kmgrgp3268gh9g%40group.calendar.google.com&ctz=Europe/Vilnius&mode=agenda
 .. _Registracija: https://docs.google.com/forms/d/1cKw-C3_4IwSKVa4OkPdUln5X2ShvoUu6a4eIxC5-Psg/viewform
 .. _VU MIF: http://mif.vu.lt/
 .. _Naugarduko g. 24: http://osm.org/go/0lP6hOmlJ--?m=
