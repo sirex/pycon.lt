@@ -31,6 +31,12 @@ Rėmėjai
       :alt: HacBee
       :target: http://www.hbee.eu/
 
+.. container:: ads
+
+   .. figure:: {filename}/images/uber-logo.png
+      :alt: Uber
+      :target: http://www.uber.com/
+
 .. class:: moreinfo
 
 | Daugiau informacijos `el. p. konferencijoje`_ ir `Google+`_.
