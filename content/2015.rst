@@ -1,0 +1,46 @@
+Konferencija PyCon-LT 2014
+##########################
+
+:date: 2015-03-13
+:slug: 2015
+
+.. class:: time-and-location
+
+Konferencija vyks `2015 m. balandžio 25 d.`_, šeštadienį, **nuo 11:00 iki
+18:00**, `VU MIF`_, `Naugarduko g. 24`_, 102-oje auditorijoje, Vilniuje.
+
+.. include:: partials/code-of-conduct-note.rst
+
+Rėmėjai
+=======
+
+.. container:: ads
+
+   .. figure:: {filename}/images/pov-logo.jpg
+      :width: 220px
+      :alt: Programmers of Vilnius
+      :target: http://www.pov.lt/
+
+   .. figure:: {filename}/images/uber-logo.png
+      :alt: Uber
+      :target: http://www.uber.com/
+
+.. class:: moreinfo
+
+| Daugiau informacijos `el. p. konferencijoje`_ ir `Google+`_.
+
+.. class:: koordinatorius
+
+| Koordinatoriai:
+| Albertas Gimbutas
+| Justas Trimailovas
+| Mantas Zimnickas <sirexas@gmail.com>
+| Saulius Žemaitaitis
+
+.. include:: partials/footer.rst
+
+.. _2015 m. balandžio 25 d.: https://www.google.com/calendar/embed?src=2jg1fs4q0ts0kmgrgp3268gh9g%40group.calendar.google.com&ctz=Europe/Vilnius&mode=agenda
+.. _VU MIF: http://mif.vu.lt/
+.. _Naugarduko g. 24: http://osm.org/go/0lP6hOmlJ--?m=
+.. _el. p. konferencijoje: http://www.konferencijos.lt/mailman/listinfo/python
+.. _Google+: https://plus.google.com/communities/108018939812342947290

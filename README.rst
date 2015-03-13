@@ -1,5 +1,9 @@
 Pelican_ based web site for PyCon LT conferences.
 
+For how to use Pelican, read this:
+
+http://docs.getpelican.com/en/3.5.0/publish.html#make
+
 For contributors
 ================
 
