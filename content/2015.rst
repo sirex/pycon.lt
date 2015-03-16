@@ -1,4 +1,4 @@
-Konferencija PyCon-LT 2014
+Konferencija PyCon-LT 2015
 ##########################
 
 :date: 2015-03-13
@@ -7,8 +7,9 @@ Konferencija PyCon-LT 2014
 
 .. class:: time-and-location
 
-Konferencija vyks `2015 m. balandžio 25 d.`_, šeštadienį, **nuo 11:00 iki
-18:00**, `VU MIF`_, `Naugarduko g. 24`_, 102-oje auditorijoje, Vilniuje.
+Konferencija vyks `2015 m. balandžio 25 d.`_, paskutinį balandžio šeštadienį,
+**nuo 11:00 iki 18:00**, 102-oje auditorijoje, `VU MIF`_, `Naugarduko g. 24`_,
+Vilniuje.
 
 .. include:: partials/code-of-conduct-note.rst
 
