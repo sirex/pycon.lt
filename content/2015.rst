@@ -3,7 +3,7 @@ Konferencija PyCon-LT 2015
 
 :date: 2015-03-13
 :slug: 2015
-:status: draft
+:template: 2015/article
 
 .. class:: time-and-location
 

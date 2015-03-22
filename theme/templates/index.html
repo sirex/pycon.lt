@@ -1,18 +1,1 @@
-{% extends "base.html" %}
-{% block content %}
-<section id="content">
-{% for article in articles_page.object_list[:1] %}
-<article class="hentry">
-  <header>
-    <h2 class="entry-title">
-      <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
-         title="Permalink to {{ article.title|striptags }}">
-        {{ article.title }}
-      </a>
-    </h2>
-  </header>
-  <div class="entry-content">{{ article.content }}</div>
-</article>
-{% endfor %}
-</section>
-{% endblock content %}
+{% extends "2015/article.html" %}

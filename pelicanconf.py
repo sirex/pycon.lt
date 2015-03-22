@@ -42,3 +42,6 @@ STATIC_PATHS = [
     'media',
     'images',
 ]
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['assets']

@@ -2,6 +2,7 @@ Elgesio kodeksas
 ################
 
 :slug: elgesio-kodeksas
+:template: 2015/page
 
 Visi PyConLT dalyviai privalo laikytis šio elgesio kodekso. Organizatoriai
 prižiūrės kaip laikomasi šio kodekso renginio metu.

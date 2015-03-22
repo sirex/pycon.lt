@@ -1,0 +1,177 @@
+{% extends "2015/base.html" %}
+
+{% block subtitle %}{{ article.title }}{% endblock %}
+
+{% block header %}
+<div class="wrapper">
+    <div class="pylogo">
+        <div class="pyconlt-year">2015</div>
+        <a href="http://python.org" target="_blank">
+            <!-- http://upload.wikimedia.org/wikipedia/en/thumb/0/06/Python_logo.svg/200px-Python_logo.svg.png -->
+            <img id="pycon-logo"
+                src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/2015/img/pyconlt_logo_color3.png"
+                alt="PyConLT logo"/>
+        </a>
+        <div class="tagline">Balandžio 25 d., VU MIF 102 auditorija, Vilnius.</div>
+    </div>
+
+    <div class="registration-line"><a href="#" class="registration-button">Registruotis</a></div>
+</div>
+{% endblock %}
+
+{% block body %}
+  <div class="wrapper">
+      <h1>Programa</h1>
+
+      <div class="full-box">
+          <div class="time">11:00</div>
+          <div class="topic">Pradžia. Įdarbinimo sesija.</div>
+      </div>
+
+      <div class="half-box speaker-box">
+          <img src=" http://www.gravatar.com/avatar/6bb61343424d2113e2dee54a7735fe04.jpg?s=80&d=wavatar">
+          <div class="time">11:30</div>
+          <div class="speaker">Justas Trimailovas</div>
+          <div class="topic">Python mikrokontroleriuose</div>
+      </div>
+      <div class="half-box speaker-box">
+          <img src="http://www.gravatar.com/avatar/835202397d6140ced1a3235b059a30e3.jpg?s=80">
+          <div class="time">12:00</div>
+          <div class="speaker">Mantas Zimnickas</div>
+          <div class="topic">Patarimai programuojantiems Django</div>
+      </div>
+
+      <div class="full-box">
+          <div class="time">12:30 (15 min.)</div>
+          <div class="topic">Pertrauka.</div>
+      </div>
+
+      <div class="half-box speaker-box">
+          <img src="http://www.gravatar.com/avatar/1f888d02e1a92f58c8ef076492049f3b.jpg?s=80&d=wavatar">
+          <div class="time">12:45</div>
+          <div class="speaker">Saulius Žemaitaitis</div>
+          <div class="topic"><em>(informacija ruošiama)</em></div>
+      </div>
+      <div class="half-box speaker-box">
+          <img src="http://www.gravatar.com/avatar/89c2af4f7f119918924bf867b5941c99.jpg?s=80&d=wavatar">
+          <div class="time">13:15</div>
+          <div class="speaker">Petras Zdanavičius</div>
+          <div class="topic">Kaip prisidėti prie atviro kodo ekosistemos</div>
+      </div>
+
+      <div class="full-box">
+          <div class="time">13:45 (1:45 val.)</div>
+          <div class="topic">Pietų pertrauka.</div>
+      </div>
+
+      <div class="half-box speaker-box">
+          <img src="http://www.gravatar.com/avatar/db1c602dd98f7bac45b7b249360609f4.jpg?s=80&d=wavatar">
+          <div class="time">15:30</div>
+          <div class="speaker">Albartas Gimbutas</div>
+          <div class="topic">Blender ir Python</div>
+      </div>
+      <div class="half-box speaker-box">
+          <img src="http://www.gravatar.com/avatar/8fd163e1404928dd939e01b68f258e99.jpg?s=80&d=wavatar">
+          <div class="time">16:00</div>
+          <div class="speaker">Juozas Masiulis</div>
+          <div class="topic">web2py</div>
+      </div>
+
+      <div class="full-box">
+          <div class="time">16:30 (15 min.)</div>
+          <div class="topic">Petrauka.</div>
+      </div>
+
+      <div class="half-box speaker-box">
+          <div class="time">16:45</div>
+          <div class="topic"><em>(laisva pranešimo vieta)</em></div>
+      </div>
+      <div class="half-box speaker-box">
+          <div class="time">17:15</div>
+          <div class="topic"><em>(laisva pranešimo vieta)</em></div>
+      </div>
+
+      <div class="full-box">
+          <div class="time">17:45</div>
+          <div class="topic">Pabaiga.</div>
+      </div>
+
+
+      <div class="extra-space"></div>
+      <h1>Informacija apie renginį</h1>
+
+      <p>Konferencija vyks 2015 m. balandžio 25 d., <a href="http://mif.vu.lt/">Vilniaus
+      Universiteto Matematikos ir Informatikos fakultete</a>, Naugarduko g. 24, 102-a auditorija,
+      Vilnius.</p>
+
+      <p>Konferencija prasideda 11:00, baigiasi 18:00. Įėjimas nemokamas.</p>
+
+      <iframe width="830" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=25.27021765708923%2C54.67360763073661%2C25.27706265449524%2C54.67635891061495&amp;layer=mapnik&amp;marker=54.6749817430874%2C25.273640155792236" style="border: 1px solid black"></iframe>
+
+      <p>Norėdami užtikrinti sklandžią konferencijos eigą, dalyvių ir pranešėjų
+      prašome laikytis <a href="/elgesio-kodeksas.html">elgesio kodekso</a>.</p>
+
+      <div class="extra-space"></div>
+      <h1>Marškinėliai</h1>
+
+      <p>Rėmėjų dėka, kiekvienas pranešėjas gaus PyConLT marškinėlius.</p>
+      <p>Visi norintys, gali marškinėlius užsisakyti.</p>
+
+      <ul class="responsive-list" id="tshirt-list">
+          <li>
+              <img class="tshirt" src="/media/2015/blue_tshirt_front.png" />
+          </li>
+          <li>
+              <img class="tshirt" src="/media/2015/blue_tshirt_back.png" />
+          </li>
+      </ul>
+
+      <p>Kaina 10 €, <a href="https://docs.google.com/forms/d/1d6vi1pJtCn-TcLF4qxqr5shWimRrGxn1O-v9NYjgIQk/viewform?c=0&w=1"
+      class="button" target="_blank">Užsisakyti</a>.</p>
+
+
+      <div class="extra-space"></div>
+      <h1>Rėmėjai</h1>
+
+      <div class="sponsors">
+          <a href="http://pov.lt/" target="_blank"><img src="/images/pov-logo.jpg"></a>
+          <a href="https://www.uber.com/" target="_blank"><img src="/images/uber-logo.png"></a>
+          <a href="https://www.hbee.eu/" target="_blank"><img src="/images/hbee-logo.png"></a>
+      </div>
+
+      <div class="extra-space"></div>
+      <h1>Kiti renginiai</h1>
+
+      <div class="half-box">
+          <h2>VilniusPy</h2>
+          <p>Reguliarus renginys vykstantis kas mėnesį, darbo dieną, vakare po
+          darbo.</p>
+          <p>Daugiau informacijos: <a href="http://vilniuspy.lt" target="_blank">vilniuspy.lt</a>.</p>
+      </div>
+      <div class="half-box">
+          <h2>Python dirbtuvės</h2>
+          <p>Reguliarus renginys vykstantis kiekvieną savaitę, pirmadieniais,
+          nuo 18:00 iki 20:00.</p>
+          <p>Daugiau informacijos: <a href="https://groups.google.com/d/forum/python-dirbtuves" target="_blank">
+          teiraukitės renginio el. pašto grupėje</a>.</p>
+      </div>
+
+
+      <div class="extra-space"></div>
+      <h1>Python programuotojų bendruomenė internete</h1>
+
+      <div class="half-box">
+          <h2>El. pašto grupė</h2>
+          <p><a href="https://www.konferencijos.lt/mailman/listinfo/python">konf.lt / Python</a></p>
+      </div>
+      <div class="half-box">
+          <h2>Google+ grupė</h2>
+          <p><a href="https://plus.google.com/communities/108018939812342947290">plus.google.com / Python Lietuva</a></p>
+      </div>
+      <div class="half-box">
+          <h2>Forumas</h2>
+          <p><a href="https://www.ubuntu.lt/forum/viewforum.php?f=11">ubuntu.lt / Python forumas</a></p>
+      </div>
+
+  </div>
+{% endblock %}

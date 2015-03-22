@@ -29,7 +29,7 @@ help:
 
 run: $(PELICAN)
 	@echo 'Serving at http://localhost:$(PORT)/'
-	scripts/serve.py --pelican=$(PELICAN) --input=$(INPUTDIR) --output=$(OUTPUTDIR) --settings=$(CONFFILE) --port=$(PORT)
+	scripts/serve.py --python=$(PY) --pelican=$(PELICAN) --input=$(INPUTDIR) --output=$(OUTPUTDIR) --settings=$(CONFFILE) --port=$(PORT)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
@@ -41,5 +41,5 @@ $(PY):
 
 $(VENV)/bin/pip: $(PY)
 
-$(PELICAN): $(VENV)/bin/pip
+$(PELICAN): $(VENV)/bin/pip requirements.txt
 	$(VENV)/bin/pip install -r requirements.txt

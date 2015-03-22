@@ -8,6 +8,7 @@ import time
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument('--python', default='python3')
     parser.add_argument('--pelican', default='pelican')
     parser.add_argument('-i', '--input', default='content')
     parser.add_argument('-o', '--output', default='output')
@@ -27,7 +28,7 @@ def main():
         ])
 
         server = subprocess.Popen([
-            sys.executable, '-m', 'pelican.server', args.port,
+            args.python, '-m', 'pelican.server', args.port,
         ], cwd=args.output)
 
         while True:
