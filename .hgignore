@@ -6,5 +6,6 @@ syntax: glob
 ./local/
 ./include/
 ./cache/
+./.ropeproject/
 
 *.pyc

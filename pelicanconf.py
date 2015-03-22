@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Python bendruomenė'
 SITENAME = u'PyCon LT'
-SITEURL = ''
+SITEURL = 'http://localhost:8000'
 
 TIMEZONE = 'Europe/Vilnius'
 
