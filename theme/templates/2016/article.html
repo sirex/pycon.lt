@@ -1,25 +1,6 @@
-{% extends "2016/base.html" %}
+{% extends "2016/frontpage.html" %}
 
 {% block subtitle %}{{ article.title }}{% endblock %}
-
-{% block header %}
-<div class="wrapper">
-    <div class="pylogo">
-        <div class="pyconlt-year">2016</div>
-        <a href="http://python.org" target="_blank">
-            <!-- http://upload.wikimedia.org/wikipedia/en/thumb/0/06/Python_logo.svg/200px-Python_logo.svg.png -->
-            <img id="pycon-logo"
-                src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/2015/img/pyconlt_logo_color3.png"
-                alt="PyConLT logo"/>
-        </a>
-        <div class="tagline">Balandžio 23 d., Vilnius.</div>
-    </div>
-
-    <!--
-    <div class="registration-line"><a href="#" class="registration-button">Registruotis</a></div>
-    -->
-</div>
-{% endblock %}
 
 {% block body %}
   <div class="wrapper">
@@ -102,6 +83,15 @@
           <a href="https://www.hbee.eu/" target="_blank"><img src="/images/hbee-logo.png"></a>
       </div-->
 
+      <h2>Tapkite konferencijos rėmėju</h2>
+
+      <p>Tapkite mūsų parteriais ir būkite matomas konferencijos metu su
+      vienu iš siūlomų rėmimo paketu.</p>
+
+      <p>&nbsp;</p>
+
+      <p><a class="btn" href="/2016/sponsorship.html">Rėmimo paketai</a></p>
+
       <div class="extra-space"></div>
       <h1>Kiti renginiai</h1>
 
@@ -127,6 +117,5 @@
           <h2>Forumas</h2>
           <p><a href="https://www.ubuntu.lt/forum/viewforum.php?f=11">ubuntu.lt / Python forumas</a></p>
       </div>
-
   </div>
 {% endblock %}

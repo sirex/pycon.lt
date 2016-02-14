@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Ubuntu;
+    background-color: #FFF;
+    color: #000;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.top-bar {
+    background-color: #1E2933;
+}
+
+.top-bar a {
+    color: #BBB;
+    text-decoration: none;
+    display: inline-block;
+    width: 128px;
+    line-height: 42px;
+    text-align: center;
+    border-top: 3px solid #78797A;
+    border-left: 1px solid #273643;
+    border-right: 1px solid #11171D;
+    border-bottom: 1px solid #273643;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.top-bar a:hover, .top-bar a.active {
+    color: #FFF;
+    font-weight: bold;
+    background-color:                                             #1E2933;
+    background-image: -webkit-linear-gradient(top,       #12181D, #1E2933);
+    background-image:    -moz-linear-gradient(top,       #12181D, #1E2933);
+    background-image:      -o-linear-gradient(top,       #12181D, #1E2933);
+    background-image:         linear-gradient(to bottom, #12181D, #1E2933);
+}
+
+.main-header {
+    padding: 0;
+    margin: 0;
+    background-color:                                             #2A5981;
+    background-image: -webkit-linear-gradient(top,       #1E3F5C, #2A5981);
+    background-image:    -moz-linear-gradient(top,       #1E3F5C, #2A5981);
+    background-image:      -o-linear-gradient(top,       #1E3F5C, #2A5981);
+    background-image:         linear-gradient(to bottom, #1E3F5C, #2A5981);
+}
+
+.main-header .pylogo {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.pyconlt-year {
+    color: #FFF;
+    font-size: 46px;
+    position: relative;
+    left: 614px;
+    top: 138px;
+    color: #E8E8E8;
+}
+
+.main-header .tagline {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: -20px;
+    color: #FFD345;
+    background-color: #1C3B56;
+    display: inline-block;
+}
+
+.main-header h1 {
+    color: #FFF;
+}
+
+.page {
+    width: 800px;
+    font-size: 16px;
+}
+
+footer {
+    font-size: 12px;
+    background-color: #E6E8EA;
+    border-top: 1px solid #D8DBDE;
+    color: #666667;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+footer a {
+    color: #666667;
+}
+
+
+.full-box, .half-box {
+    border-top: 3px solid #75A8D3;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.full-box {
+    width: 820px;
+}
+
+.half-box {
+    width: 400px;
+}
+
+.half-box h2 {
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.speaker-box img {
+    float: left;
+    border-radius: 8px;
+}
+
+.speaker-box .speaker, .speaker-box .topic {
+    margin-left: 90px;
+}
+
+.speaker-box .speaker {
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+.speaker-box .topic em {
+    color: #666667;
+}
+
+.full-box .time, .half-box .time {
+    float: right;
+    color: #666667;
+}
+
+h1 {
+    color: #1C3B56;
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+#tshirt-list li {
+    float:left;
+}
+
+#tshirt-list .tshirt {
+    max-width: 275px;
+    min-width: 275px;
+}
+
+.responsive-list {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.button {
+    background-color:                                      #2b5b84;
+    background-image: -webkit-linear-gradient(#1e415e 10%, #2b5b84 90%);
+    background-image:    -moz-linear-gradient(#1e415e 10%, #2b5b84 90%);
+    background-image:      -o-linear-gradient(#1e415e 10%, #2b5b84 90%);
+    background-image:         linear-gradient(#1e415e 10%, #2b5b84 90%);
+    -webkit-box-shadow: inset 0 0 50px rgba(0,0,0,0.03), inset 0 0 20px rgba(0,0,0,0.03);
+       -moz-box-shadow: inset 0 0 50px rgba(0,0,0,0.03), inset 0 0 20px rgba(0,0,0,0.03);
+            box-shadow: inset 0 0 50px rgba(0,0,0,0.03), inset 0 0 20px rgba(0,0,0,0.03);
+    color: white;
+    padding: 6px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.registration-line {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.registration-button {
+    background-color:                                      #FFE284;
+    background-image: -webkit-linear-gradient(#FFD54C 10%, #FFE284 90%);
+    background-image:    -moz-linear-gradient(#FFD54C 10%, #FFE284 90%);
+    background-image:      -o-linear-gradient(#FFD54C 10%, #FFE284 90%);
+    background-image:         linear-gradient(#FFD54C 10%, #FFE284 90%);
+    -webkit-box-shadow: inset 0 0 50px rgba(0,0,0,0.03), inset 0 0 20px rgba(0,0,0,0.03);
+       -moz-box-shadow: inset 0 0 50px rgba(0,0,0,0.03), inset 0 0 20px rgba(0,0,0,0.03);
+            box-shadow: inset 0 0 50px rgba(0,0,0,0.03), inset 0 0 20px rgba(0,0,0,0.03);
+    color: #1E2933;
+    padding: 12px 32px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sponsors {
+    text-align: center;
+    margin-right: 70px;
+}
+
+.sponsors a {
+    text-decoration: none;
+    padding: 0 40px;
+}
+
+.sponsors img {
+    vertical-align: middle;
+}
+
+.extra-space {
+    clear: both;
+    height: 30px;
+}
+
+
+.sponsorship-table {
+    width: 700px;
+    margin: 20px auto;
+    /*border-collapse: collapse;*/
+    border-collapse: separate;
+    border-spacing: 8px 0;
+}
+
+.sponsorship-table, .sponsorship-table td, .sponsorship-table th {
+    border: 0;
+}
+
+.sponsorship-table td, .sponsorship-table th {
+    padding: 8px;
+    margin-left: 16px;
+}
+
+.sponsorship-table th.head.stub {
+    background-color: transparent;
+}
+
+.sponsorship-table th.head {
+    background-color: #29577F;
+    color: #E8E8E8;
+}
+
+.sponsorship-table th.stub {
+    font-weight: normal;
+    text-align: left;
+}
+
+.sponsorship-table td {
+    text-align: center;
+    margin-left: 8px;
+}
+
+.sponsorship-table tr:nth-child(even) {
+    background-color: #F0F0F0;
+}
+
+.btn {
+    background-color: #27547A;
+    color: #E8E8E8;
+    padding: 12px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+}
