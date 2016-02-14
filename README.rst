@@ -14,12 +14,14 @@ of things you should know:
   automatically generated from articles. It means, that all other pages have to
   be pages, not articles.
 
-- Each new conference event is new articles in this form
+- Each new conference event is new article in this form
   ``content/{year}.rst``, time line for each conference goes to
   ``content/pages/{year}/programa.rst``.
 
 - ``content/partials/`` folder is reserved for reStructuredText files, that can
   be included in other pages.
+
+- Title page is specified in ``theme/templates/index.html``.
 
 
 .. _Pelican: http://getpelican.com/

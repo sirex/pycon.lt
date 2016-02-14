@@ -1,0 +1,43 @@
+Konferencija PyCon-LT 2016
+##########################
+
+:date: 2016-01-23
+:slug: 2016
+:template: 2016/article
+
+.. class:: time-and-location
+
+Konferencija vyks `2016 m. balandžio 23 d.`_, Vilniuje.
+
+.. include:: partials/code-of-conduct-note.rst
+
+Rėmėjai
+=======
+
+.. container:: ads
+
+   .. figure:: {filename}/images/pov-logo.jpg
+      :width: 220px
+      :alt: Programmers of Vilnius
+      :target: http://www.pov.lt/
+
+   .. figure:: {filename}/images/uber-logo.png
+      :alt: Uber
+      :target: http://www.uber.com/
+
+.. class:: moreinfo
+
+| Daugiau informacijos `el. p. konferencijoje`_ ir `Google+`_.
+
+.. class:: koordinatorius
+
+| Koordinatoriai:
+| Laurynas Speičys
+| Mantas Zimnickas
+| Saulius Žemaitaitis
+
+.. include:: partials/footer.rst
+
+.. _2016 m. balandžio 23 d.: https://www.google.com/calendar/embed?src=2jg1fs4q0ts0kmgrgp3268gh9g%40group.calendar.google.com&ctz=Europe/Vilnius&mode=agenda
+.. _el. p. konferencijoje: http://www.konferencijos.lt/mailman/listinfo/python
+.. _Google+: https://plus.google.com/communities/108018939812342947290

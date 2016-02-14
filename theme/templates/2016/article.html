@@ -1,0 +1,132 @@
+{% extends "2016/base.html" %}
+
+{% block subtitle %}{{ article.title }}{% endblock %}
+
+{% block header %}
+<div class="wrapper">
+    <div class="pylogo">
+        <div class="pyconlt-year">2016</div>
+        <a href="http://python.org" target="_blank">
+            <!-- http://upload.wikimedia.org/wikipedia/en/thumb/0/06/Python_logo.svg/200px-Python_logo.svg.png -->
+            <img id="pycon-logo"
+                src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/2015/img/pyconlt_logo_color3.png"
+                alt="PyConLT logo"/>
+        </a>
+        <div class="tagline">Balandžio 23 d., Vilnius.</div>
+    </div>
+
+    <!--
+    <div class="registration-line"><a href="#" class="registration-button">Registruotis</a></div>
+    -->
+</div>
+{% endblock %}
+
+{% block body %}
+  <div class="wrapper">
+      <h1>Programa</h1>
+
+      <div class="full-box">
+          <div class="time">11:00</div>
+          <div class="topic">Pradžia. Įdarbinimo sesija.</div>
+      </div>
+
+      <div class="half-box speaker-box">
+          <div class="time">11:30</div>
+          <div class="topic"><em>(laisva pranešimo vieta)</em></div>
+      </div>
+      <div class="half-box speaker-box">
+          <div class="time">12:00</div>
+          <div class="topic"><em>(laisva pranešimo vieta)</em></div>
+      </div>
+
+      <div class="full-box">
+          <div class="time">12:30 (15 min.)</div>
+          <div class="topic">Pertrauka.</div>
+      </div>
+
+      <div class="half-box speaker-box">
+          <div class="time">12:45</div>
+          <div class="topic"><em>(laisva pranešimo vieta)</em></div>
+      </div>
+      <div class="half-box speaker-box">
+          <div class="time">13:15</div>
+          <div class="topic"><em>(laisva pranešimo vieta)</em></div>
+      </div>
+
+      <div class="full-box">
+          <div class="time">13:45 (1:45 val.)</div>
+          <div class="topic">Pietų pertrauka.</div>
+      </div>
+
+      <div class="half-box speaker-box">
+          <div class="time">15:30</div>
+          <div class="topic"><em>(laisva pranešimo vieta)</em></div>
+      </div>
+      <div class="half-box speaker-box">
+          <div class="time">16:00</div>
+          <div class="topic"><em>(laisva pranešimo vieta)</em></div>
+      </div>
+
+      <div class="full-box">
+          <div class="time">16:30 (15 min.)</div>
+          <div class="topic">Petrauka.</div>
+      </div>
+
+      <div class="half-box speaker-box">
+          <div class="time">16:45</div>
+          <div class="topic"><em>(laisva pranešimo vieta)</em></div>
+      </div>
+      <div class="half-box speaker-box">
+          <div class="time">17:15</div>
+          <div class="topic"><em>(laisva pranešimo vieta)</em></div>
+      </div>
+
+      <div class="full-box">
+          <div class="time">17:45</div>
+          <div class="topic">Pabaiga.</div>
+      </div>
+
+
+      <div class="extra-space"></div>
+      <h1>Informacija apie renginį</h1>
+
+      <p>Norėdami užtikrinti sklandžią konferencijos eigą, dalyvių ir pranešėjų
+      prašome laikytis <a href="/elgesio-kodeksas.html">elgesio kodekso</a>.</p>
+
+      <div class="extra-space"></div>
+      <h1>Rėmėjai</h1>
+
+      <!--div class="sponsors">
+          <a href="http://pov.lt/" target="_blank"><img src="/images/pov-logo.jpg"></a>
+          <a href="https://www.uber.com/" target="_blank"><img src="/images/uber-logo.png"></a>
+          <a href="https://www.hbee.eu/" target="_blank"><img src="/images/hbee-logo.png"></a>
+      </div-->
+
+      <div class="extra-space"></div>
+      <h1>Kiti renginiai</h1>
+
+      <div class="half-box">
+          <h2>VilniusPy</h2>
+          <p>Reguliarus renginys vykstantis kas mėnesį, darbo dieną, vakare po
+          darbo.</p>
+          <p>Daugiau informacijos: <a href="http://vilniuspy.lt" target="_blank">vilniuspy.lt</a>.</p>
+      </div>
+
+      <div class="extra-space"></div>
+      <h1>Python programuotojų bendruomenė internete</h1>
+
+      <div class="half-box">
+          <h2>El. pašto grupė</h2>
+          <p><a href="https://www.konferencijos.lt/mailman/listinfo/python">konf.lt / Python</a></p>
+      </div>
+      <div class="half-box">
+          <h2>Google+ grupė</h2>
+          <p><a href="https://plus.google.com/communities/108018939812342947290">plus.google.com / Python Lietuva</a></p>
+      </div>
+      <div class="half-box">
+          <h2>Forumas</h2>
+          <p><a href="https://www.ubuntu.lt/forum/viewforum.php?f=11">ubuntu.lt / Python forumas</a></p>
+      </div>
+
+  </div>
+{% endblock %}
