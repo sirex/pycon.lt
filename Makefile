@@ -5,7 +5,7 @@ PY=$(VENV)/bin/python
 PELICAN=$(VENV)/bin/pelican
 
 INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(BASEDIR)/output
+OUTPUTDIR=$(BASEDIR)/output/
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 PORT = 8000
@@ -29,7 +29,7 @@ help:
 
 run: $(PELICAN)
 	@echo 'Serving at http://localhost:$(PORT)/'
-	scripts/serve.py --python=$(PY) --pelican=$(PELICAN) --input=$(INPUTDIR) --output=$(OUTPUTDIR) --settings=$(CONFFILE) --port=$(PORT)
+	$(PY) scripts/serve.py --python=$(PY) --pelican=$(PELICAN) --input=$(INPUTDIR) --output=$(OUTPUTDIR) --settings=$(CONFFILE) --port=$(PORT)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)

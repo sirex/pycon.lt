@@ -12,6 +12,9 @@
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
         {% endif %}
         {% endblock head %}
+        {% if LIVERELOAD %}
+        <script type="text/javascript" src="http://127.0.0.1:35729/livereload.js"></script>
+        {% endif %}
 </head>
 
 <body id="index" class="home">

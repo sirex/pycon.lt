@@ -3,7 +3,7 @@
 import sys
 import argparse
 import subprocess
-import time
+import livereload
 
 
 def main():
@@ -19,6 +19,7 @@ def main():
     watcher = server = None
 
     try:
+        # Rebuild static files
         watcher = subprocess.Popen([
             args.pelican,
             '--autoreload',
@@ -27,12 +28,15 @@ def main():
             args.input,
         ])
 
+        # Serve static files
         server = subprocess.Popen([
             args.python, '-m', 'pelican.server', args.port,
         ], cwd=args.output)
 
-        while True:
-            time.sleep(1)
+        # Live reload
+        live = livereload.Server()
+        live.watch(args.output)
+        live.serve(port=35729)
 
     except KeyboardInterrupt:
         pass
