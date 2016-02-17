@@ -51,10 +51,6 @@ Sponsorship packages
      - ✔
      - ✔
      - 
-   * - Booth space
-     - ✔
-     - 
-     - 
    * - Logo on the main screen, during breaks
      - ✔
      - 
