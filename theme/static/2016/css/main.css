@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-size: 16px;
-    font-family: Ubuntu;
+    font-family: Ubuntu, Helvetica, Arial, sans-serif;
     background-color: #FFF;
     color: #000;
 }
