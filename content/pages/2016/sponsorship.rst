@@ -4,18 +4,15 @@ Become a sponsor
 :slug: 2016/sponsorship
 :template: 2016/en/frontpage
 
-You are invited to support unique developers focused event - Dynamic Languages
-Festival 2016 featuring two well known annual PyConLT_ and RubyConfLT_
-conferences. It's ideal way to demonstrate your organization's commitment to
-the field of dynamic languages and related technologies - and to publicize this
-support to wide audience of local Python, Ruby and other dynamic languages
-developers and enthusiasts.
+You are invited to support unique developers focused event PyConLT_ conference.
+It's ideal way to demonstrate your organization's commitment to the field of
+Python programing language and related technologies and to publicize this
+support to wide audience of local Python developers and enthusiasts.
 
 .. _PyConLT: http://pycon.lt/
-.. _RubyConfLT: http://rubyconf.lt/
 
-Your support is very important to the conferences and we ensure that your
-contributions are well recognized. We have number of sponsorship opportunities
+Your support is very important to the conference and we ensure that your
+contribution are well recognized. We have number of sponsorship opportunities
 and we would be happy to work with you on what works best for your company.
 
 Sponsorship packages
