@@ -18,7 +18,7 @@ and we would be happy to work with you on what works best for your company.
 Contact us:
 
 :Phone: +370 613 12986
-:Email: sponsors@pycon.lt
+:Email: info@pycon.lt
 
 Sponsorship packages
 ====================
