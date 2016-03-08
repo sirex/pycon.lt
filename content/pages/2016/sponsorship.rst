@@ -15,6 +15,11 @@ Your support is very important to the conference and we ensure that your
 contribution are well recognized. We have number of sponsorship opportunities
 and we would be happy to work with you on what works best for your company.
 
+Contact us:
+
+:Phone: +370 613 12986
+:Email: sponsors@pycon.lt
+
 Sponsorship packages
 ====================
 
