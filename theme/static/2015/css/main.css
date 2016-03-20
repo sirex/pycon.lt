@@ -115,6 +115,13 @@ footer a {
     width: 820px;
 }
 
+.full-box h2 {
+    color: #1C3B56;
+    font-weight: normal;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
 .half-box {
     width: 400px;
 }
