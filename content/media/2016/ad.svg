@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09003"
+   height="1052.36"
+   id="svg2023"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="pyconlt.svg"
+   version="1.1">
+  <defs
+     id="defs2025">
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.177966,0,108.7434)"
+       r="29.036913"
+       fy="132.28575"
+       fx="61.518883"
+       cy="132.28575"
+       cx="61.518883"
+       id="radialGradient2801"
+       xlink:href="#linearGradient2795"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="76.313133"
+       x2="26.670298"
+       y1="76.176224"
+       x1="172.94208"
+       gradientTransform="matrix(0.562541,0,0,0.567972,-11.5974,-7.60954)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2258"
+       xlink:href="#linearGradient4689"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="144.75717"
+       x2="-65.308502"
+       y1="144.75717"
+       x1="224.23996"
+       gradientTransform="matrix(0.562541,0,0,0.567972,-11.5974,-7.60954)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2255"
+       xlink:href="#linearGradient4671"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="144.75717"
+       x2="-65.308502"
+       y1="144.75717"
+       x1="224.23996"
+       gradientTransform="translate(100.2702,99.61116)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2250"
+       xlink:href="#linearGradient4671"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="76.313133"
+       x2="26.670298"
+       y1="77.475983"
+       x1="172.94208"
+       gradientTransform="translate(100.2702,99.61116)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2248"
+       xlink:href="#linearGradient4689"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="144.75717"
+       x2="-65.308502"
+       y1="144.75717"
+       x1="224.23996"
+       gradientTransform="translate(100.2702,99.61116)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2589"
+       xlink:href="#linearGradient4671"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="76.313133"
+       x2="26.670298"
+       y1="77.475983"
+       x1="172.94208"
+       gradientTransform="translate(100.2702,99.61116)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2587"
+       xlink:href="#linearGradient4689"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientTransform="translate(100.2702,99.61116)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient4689"
+       id="linearGradient2990"
+       y2="76.313133"
+       x2="26.670298"
+       y1="77.475983"
+       x1="172.94208" />
+    <linearGradient
+       gradientTransform="translate(100.2702,99.61116)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient4671"
+       id="linearGradient2987"
+       y2="144.75717"
+       x2="-65.308502"
+       y1="144.75717"
+       x1="224.23996" />
+    <linearGradient
+       id="linearGradient4689">
+      <stop
+         id="stop4691"
+         offset="0"
+         style="stop-color:#5a9fd4;stop-opacity:1;" />
+      <stop
+         id="stop4693"
+         offset="1"
+         style="stop-color:#306998;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4671">
+      <stop
+         id="stop4673"
+         offset="0"
+         style="stop-color:#ffd43b;stop-opacity:1;" />
+      <stop
+         id="stop4675"
+         offset="1"
+         style="stop-color:#ffe873;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3236">
+      <stop
+         id="stop3244"
+         offset="0"
+         style="stop-color:#f4f4f4;stop-opacity:1" />
+      <stop
+         id="stop3240"
+         offset="1"
+         style="stop-color:white;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3676">
+      <stop
+         id="stop3678"
+         offset="0"
+         style="stop-color:#b2b2b2;stop-opacity:0.5;" />
+      <stop
+         id="stop3680"
+         offset="1"
+         style="stop-color:#b3b3b3;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2787">
+      <stop
+         id="stop2789"
+         offset="0"
+         style="stop-color:#7f7f7f;stop-opacity:0.5;" />
+      <stop
+         id="stop2791"
+         offset="1"
+         style="stop-color:#7f7f7f;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2795">
+      <stop
+         id="stop2797"
+         offset="0"
+         style="stop-color:#b8b8b8;stop-opacity:0.49803922;" />
+      <stop
+         id="stop2799"
+         offset="1"
+         style="stop-color:#7f7f7f;stop-opacity:0;" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="600.78239"
+     inkscape:cy="413.01197"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1920"
+     inkscape:window-height="1053"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     showgrid="false"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2028">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Sluoksnis 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-0.00218262)">
+    <rect
+       style="fill:#244c6e;fill-opacity:1;stroke:none"
+       id="rect4066"
+       width="744.09003"
+       height="325.00003"
+       x="0"
+       y="0.0021826201" />
+    <g
+       id="g4802"
+       transform="translate(0,-10)">
+      <text
+         transform="scale(0.98307924,1.017212)"
+         sodipodi:linespacing="125%"
+         id="text2982"
+         y="170.56366"
+         x="399.52289"
+         style="font-size:101.34098816px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e8e8e8;fill-opacity:1;stroke:none;font-family:Flux;-inkscape-font-specification:Flux Semi-Bold"
+         xml:space="preserve"><tspan
+           y="170.56366"
+           x="399.52289"
+           id="tspan2984"
+           sodipodi:role="line">PyConLT</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4048"
+         y="173.49939"
+         x="634.80353"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#e8e8e8;fill-opacity:1;stroke:none;font-family:Flux;-inkscape-font-specification:Flux Semi-Bold"
+         xml:space="preserve"><tspan
+           y="173.49939"
+           x="634.80353"
+           id="tspan4050"
+           sodipodi:role="line">2016</tspan></text>
+      <g
+         transform="translate(0,-52.275726)"
+         id="g4117">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#4683ad;fill-opacity:1"
+           d="m 132.53685,113.98184 c -6.56892,0.0305 -12.84208,0.59076 -18.36181,1.56747 -16.260455,2.8727 -19.212718,8.88547 -19.212718,19.97406 l 0,14.64466 38.425438,0 0,4.88156 -38.425438,0 -14.420735,0 c -11.167503,0 -20.946087,6.71231 -24.004701,19.48142 -3.528075,14.63638 -3.684571,23.76972 0,39.05243 2.731405,11.37586 9.254407,19.48143 20.42191,19.48143 l 13.211543,0 0,-17.55568 c 0,-12.68294 10.973571,-23.87035 24.004701,-23.87035 l 38.38065,0 c 10.68381,0 19.21272,-8.7967 19.21272,-19.52621 l 0,-36.58926 c 0,-10.41351 -8.78498,-18.23607 -19.21272,-19.97406 -6.60092,-1.0988 -13.44994,-1.59799 -20.01884,-1.56747 z"
+           id="path1948"
+           sodipodi:nodetypes="scsccccsccscssssscs" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#ffda6f;fill-opacity:1"
+           d="m 176.56039,155.04959 0,17.06304 c 0,13.22875 -11.21542,24.36298 -24.0047,24.36298 l -38.38065,0 c -10.51311,0 -19.212718,8.99781 -19.212718,19.52621 l 0,36.58926 c 0,10.41351 9.055258,16.53862 19.212718,19.52621 12.16333,3.5765 23.82732,4.22286 38.38065,0 9.67375,-2.80087 19.21272,-8.43763 19.21272,-19.52621 l 0,-14.64466 -38.38065,0 0,-4.88155 38.38065,0 19.21272,0 c 11.1675,0 15.32897,-7.78957 19.2127,-19.48143 4.01177,-12.03658 3.84107,-23.6117 0,-39.05243 -2.75987,-11.11731 -8.031,-19.48142 -19.2127,-19.48142 z"
+           id="path1950"
+           sodipodi:nodetypes="csssssccsccccsccsc" />
+        <path
+           id="path4097"
+           d="m 111.75666,125.76027 c 3.96907,0 7.21036,3.29423 7.21036,7.34472 -1e-5,4.03614 -3.24129,7.29994 -7.21036,7.29994 -3.98332,0 -7.21037,-3.2638 -7.21037,-7.29994 0,-4.05049 3.22705,-7.34472 7.21037,-7.34472 z"
+           style="fill:#ffffff;fill-opacity:1"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="sssss" />
+        <path
+           id="path4099"
+           d="m 154.97408,247.70953 c 3.9833,1e-5 7.21036,3.2638 7.21036,7.29993 -1e-5,4.05049 -3.22706,7.34472 -7.21036,7.34472 -3.96909,0 -7.21037,-3.29423 -7.21037,-7.34472 0,-4.03613 3.24126,-7.29993 7.21037,-7.29993 z"
+           style="fill:#ffffff;fill-opacity:1"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="sssss" />
+      </g>
+    </g>
+    <rect
+       style="fill:#1c3b56;fill-opacity:1;stroke:none"
+       id="rect4146"
+       width="482.94119"
+       height="76.537636"
+       x="207.32144"
+       y="207.10715" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
+       x="371.87485"
+       y="925.34167"
+       id="text4172"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4312"
+         x="371.87485"
+         y="925.34167">Konferencija vyks 2016 m. gegužės 7 d., Vilniaus Universiteto Matematikos ir</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4314"
+         x="371.87485"
+         y="945.34167">Informatikos fakultete, Naugarduko g. 24, 103 auditorija, Vilnius.</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4316"
+         x="371.87485"
+         y="965.34167"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4318"
+         x="371.87485"
+         y="985.34167">Įėjimas nemokamas. Konferencija vyks lietuvių kalba.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:90%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
+       x="48.750919"
+       y="354.98645"
+       id="text4232"
+       sodipodi:linespacing="90%"><tspan
+         sodipodi:role="line"
+         id="tspan4813"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4815">Pradžia. Įdarbinimo sesija.                                        11:00</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4817"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4819">                             11:30                                 12:00</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4821">Django Channels                       crossbar.io - lengvasvorės</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4823">                                      komunikacijos serveriams,</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4825">                                      naršyklėms, mobiliems įrenginiams</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4827">                                      ir daiktų internetui</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4829"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4831">Pertrauka.                                               12:30 (15 min.)</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4833"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4835">                             12:45                                 13:15</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4837">Duomenų denormalizavimas Django       Python mikroservisuose</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4839">projektuose panaudojant DB</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4841">trigerius</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4843"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4845">Pietų pertrauka.                                       13:45 (1:30 val.)</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4847"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4849">                             15:15                                 15:45</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4851">LISP interpretatorius su Python       Python naudojimas fotografijoje</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4853">PLY</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4855"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4857">Petrauka.                                                16:15 (15 min.)</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4859"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4861">                             16:30                                 17:00</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4863">py.test                               TDD ir algoritmai</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4865"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4867">Greitųjų pranešimų sesija                                          17:30</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4869"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4871">Savo greitąjį pranešimą galėsite užsirašyti renginio metu, ant lentos.</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4873">Vieno greitojo pranešimo truktmė ne ilgiau, kaip 5 minutės.</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4875"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4877">Pabaiga.                                                           18:00</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4879"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4881"></tspan></text>
+    <text
+       sodipodi:linespacing="90%"
+       id="text4320"
+       y="354.98645"
+       x="48.750919"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:90%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono Bold"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan4602"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4604">Pradžia.</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4606"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4608">Justas Trimailovas                    Justas Sadzevičius</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4610">                                                                </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4612">                                                               </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4614">                                                                       </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4616">                                                          </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4618"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4620">                                                                        </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4622"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4624">Tomas Mikelskas                       Rokas Aleksiūnas</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4626">                                                            </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4628">                          </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4630">         </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4632"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4634">                                                                        </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4636"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4638">Petras Zdanavičius                    Dalius Dobravolskas</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4640">                                                                     </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4642">   </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4644"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4646">                                                                        </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4648"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4650">Mantas Zimnickas                      Vaidas Pilkauskas</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4652">                                                       </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4654"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4656">Greitųjų pranešimų sesija                             </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4658"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4660">                                                                      </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4662">                                                           </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4664"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4666">Pabaiga.                                             </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4668"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4670"></tspan></text>
+    <g
+       id="g4794"
+       transform="translate(0,-14.820876)">
+      <text
+         sodipodi:linespacing="89.999998%"
+         id="text4142"
+         y="248.11124"
+         x="219.88873"
+         style="font-size:19.99272919px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:89.99999762%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffd345;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium"
+         xml:space="preserve"><tspan
+           id="tspan4788"
+           sodipodi:role="line"
+           x="219.88873"
+           y="248.11124">Gegužės 7 d. 11:00, VU MIF 103 auditorija, Vilnius.</tspan><tspan
+           id="tspan4790"
+           sodipodi:role="line"
+           x="219.88873"
+           y="266.10471"></tspan><tspan
+           id="tspan4792"
+           sodipodi:role="line"
+           x="219.88873"
+           y="284.09814">Registracija:</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:19.99272919px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:89.99999762%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e8e8e8;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium"
+         x="337.88873"
+         y="284.11124"
+         id="text4769"
+         sodipodi:linespacing="89.999998%"><tspan
+           y="284.11124"
+           x="337.88873"
+           id="tspan4777"
+           sodipodi:role="line">pycon.lt</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="90%"
+       id="text4883"
+       y="354.98645"
+       x="48.750919"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:90%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#b2b2b2;fill-opacity:1;stroke:none;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan4955"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4957">                           ........................................     </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4959"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4961">                  ...........                           ...........     </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4963">                                                                </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4965">                                                               </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4967">                                                                       </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4969">                                                          </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4971"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4973">          ...............................................               </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4975"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4977">               ..............                         .............     </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4979">                                                            </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4981">                          </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4983">         </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4985"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4987">                .......................................                 </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4989"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4991">                  ...........                            ..........     </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4993">                                                                     </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4995">   </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4997"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan4999">         ................................................               </tspan><tspan
+         sodipodi:role="line"
+         id="tspan5001"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan5003">                .............                          ............     </tspan><tspan
+         sodipodi:role="line"
+         id="tspan5005">                                                       </tspan><tspan
+         sodipodi:role="line"
+         id="tspan5007"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan5009">                         ..........................................     </tspan><tspan
+         sodipodi:role="line"
+         id="tspan5011"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan5013">                                                                      </tspan><tspan
+         sodipodi:role="line"
+         id="tspan5015">                                                           </tspan><tspan
+         sodipodi:role="line"
+         id="tspan5017"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan5019">        ...........................................................     </tspan><tspan
+         sodipodi:role="line"
+         id="tspan5021"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan5023"></tspan></text>
+  </g>
+</svg>
