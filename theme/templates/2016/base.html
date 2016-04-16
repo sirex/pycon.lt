@@ -4,6 +4,11 @@
         {% block head %}
         <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
         <meta charset="utf-8" />
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="PyConLT 2016">
+        <meta property="og:description" content="Gegužės 7 d. 11:00, VU MIF 103 auditorija, Vilnius.">
+        <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/2016/img/pyconltlogo.png">
+        <meta property="og:url" content="http://pycon.lt">
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/2016/css/main.css" />
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
