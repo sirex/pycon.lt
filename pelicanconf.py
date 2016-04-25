@@ -48,4 +48,4 @@ STATIC_PATHS = [
 ]
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['assets']
+# PLUGINS = ['assets']
