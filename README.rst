@@ -7,8 +7,8 @@ http://docs.getpelican.com/en/3.5.0/publish.html#make
 For contributors
 ================
 
-If you would like to improve or update content of this web site, here is list
-of things you should know:
+If you would like to improve or update content of this web site, here is the
+list of things you should know:
 
 - All articles are reserved for conference events, because top menu is
   automatically generated from articles. It means, that all other pages have to

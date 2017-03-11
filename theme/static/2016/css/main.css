@@ -20,7 +20,7 @@ body {
     color: #BBB;
     text-decoration: none;
     display: inline-block;
-    width: 128px;
+    width: 126px;
     line-height: 42px;
     text-align: center;
     border-top: 3px solid #78797A;
@@ -155,11 +155,12 @@ footer a {
     color: #666667;
 }
 
-h1 {
+h1, h1 > a {
     color: #1C3B56;
     font-weight: normal;
     font-size: 30px;
     margin-top: 20px;
+    text-decoration: none;
 }
 
 

@@ -1,0 +1,37 @@
+{% extends "2017/base.html" %}
+
+{% block subtitle %}{{ article.title }}{% endblock %}
+
+{% block header %}
+<div class="wrapper">
+    <div class="pylogo">
+        <div class="pyconlt-year">2017</div>
+        <a href="http://python.org" target="_blank">
+            <!-- http://upload.wikimedia.org/wikipedia/en/thumb/0/06/Python_logo.svg/200px-Python_logo.svg.png -->
+            <img id="pycon-logo"
+                src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/2015/img/pyconlt_logo_color3.png"
+                alt="PyConLT logo"/>
+        </a>
+        <div class="tagline">{% block tagline %}Gegužės 13 d., Kaunas.{% endblock %}</div>
+    </div>
+
+    {% block registration %}
+    <div class="registration-line"><a href="https://goo.gl/forms/EILYbyCqFy6QlBvm1" class="registration-button" target="_blank">Registruotis</a></div>
+    {% endblock %}
+</div>
+{% endblock %}
+
+{% block body %}
+  <div class="wrapper">
+    <h1>{{ page.title }}</h1>
+
+    {% block content %}
+    {% import 'translations.html' as translations with context %}
+    {{ translations.translations_for(page) }}
+
+    <div class="page">
+    {{ page.content }}
+    </div>
+    {% endblock %}
+  </div>
+{% endblock %}
