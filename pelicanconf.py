@@ -2,6 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+from datetime import timedelta
+
+from jinja2.ext import Extension
+
+
 LIVERELOAD = True
 
 AUTHOR = u'Python bendruomenė'
@@ -49,3 +54,30 @@ STATIC_PATHS = [
 
 PLUGIN_PATHS = ['plugins']
 # PLUGINS = ['assets']
+
+
+class Timetable:
+
+    def __init__(self, hours, minutes=0):
+        self.time = timedelta(hours=hours, minutes=minutes)
+
+    def __call__(self, minutes):
+        starts = str(self.time)[:5]
+        self.time += timedelta(minutes=minutes)
+        return starts
+
+
+class PyConLTExtension(Extension):
+    # a set of names that trigger the extension.
+    tags = set(['cache'])
+
+    def __init__(self, environment):
+        super(PyConLTExtension, self).__init__(environment)
+        environment.globals.update({
+            'Timetable': Timetable,
+        })
+
+
+JINJA_EXTENSIONS = [
+    PyConLTExtension,
+]

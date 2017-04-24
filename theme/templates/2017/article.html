@@ -4,6 +4,101 @@
 
 {% block body %}
   <div class="wrapper">
+      <h1>Programa</h1>
+
+      {% set timetable = Timetable(10) %}
+
+      <div class="full-box">
+          <div class="time">{{ timetable(60) }}</div>
+          <div class="topic">Dalyvių registracija.</div>
+      </div>
+
+      <div class="full-box">
+          <div class="time">{{ timetable(10) }}</div>
+          <div class="topic">Renginio atidarymas.</div>
+      </div>
+
+      <div class="half-box speaker-box">
+          <img src="/media/2017/andrew-svetlov.jpg">
+          <div class="time">{{ timetable(30) }}</div>
+          <div class="speaker">Endrew Svetlov</div>
+          <div class="topic">Making Open Source libraries<br><em title="Pranešimas anglų kalba.">anglų k.</em></div>
+      </div>
+      <div class="half-box speaker-box">
+          <img src="/media/2016/mantas.jpg">
+          <div class="time">{{ timetable(25) }}</div>
+          <div class="speaker">Mantas Zimnickas</div>
+          <div class="topic">import antigravity<br><em title="Pranešimas lietuvių kalba.">lietuvių k.</em></div>
+      </div>
+
+      <div class="full-box">
+          <div class="time">{{ timetable(15) }} (15 min.)</div>
+          <div class="topic">Pertraukėlė.</div>
+      </div>
+
+      <div class="half-box speaker-box">
+          <img src="/media/2017/irmantas.jpg">
+          <div class="time">{{ timetable(25) }}</div>
+          <div class="speaker">Irmantas Ramoška</div>
+          <div class="topic">Run Your Pyramid Application on Production Server<br><em title="Pranešimas anglų kalba.">anglų k.</em></div>
+      </div>
+
+      <div class="half-box">
+          <div class="time">{{ timetable(10) }}</div>
+          <div class="topic">Greitųjų pranešimų sesija</div>
+      </div>
+      <div class="half-box">
+          <div class="time">{{ timetable(15) }}</div>
+          <div class="topic">Įdarbinimo sesija</div>
+      </div>
+
+      <div class="full-box">
+          <div class="time">{{ timetable(60) }} (60 min.)</div>
+          <div class="topic">Pietų pertrauka.</div>
+      </div>
+
+      <div class="half-box speaker-box">
+          <img src="/media/2017/simona.png">
+          <div class="time">{{ timetable(15) }}</div>
+          <div class="speaker">Simona Bekeraitė</div>
+          <div class="topic">Python in astrophysics: an overview<br><em title="Pranešimas anglų kalba.">anglų k.</em></div>
+      </div>
+      <div class="half-box speaker-box">
+          <img src="/media/2016/petras.png">
+          <div class="time">{{ timetable(25) }}</div>
+          <div class="speaker">Petras Zdanavičius</div>
+          <div class="topic">Prototipinio OOP įgyvendinimas su Python<br><em title="Pranešimas lietuvių kalba.">lietuvių k.</em></div>
+      </div>
+
+      <div class="full-box">
+          <div class="time">{{ timetable(15) }} (15 min.)</div>
+          <div class="topic">Pertraukėlė.</div>
+      </div>
+
+      <div class="half-box speaker-box">
+          <img src="/media/2016/yvl.jpg">
+          <div class="time">{{ timetable(25) }}</div>
+          <div class="speaker">Justas Sadzevičius</div>
+          <div class="topic">Transakcinis Python objektų saugojimas Mongo DB, PostgreSQL, failų sistemoje<br><em title="Pranešimas lietuvių kalba.">lietuvių k.</em></div>
+      </div>
+      <div class="half-box speaker-box">
+          <img src="/media/2017/sarunas.jpg">
+          <div class="time">{{ timetable(25) }}</div>
+          <div class="speaker">Šarūnas Navickas</div>
+          <div class="topic">Duomenų apdorojimas naudojant Python dideliu mastu<br><em title="Pranešimas lietuvių kalba.">lietuvių k.</em></div>
+      </div>
+
+      <div class="half-box speaker-box">
+          <img src="/media/2017/karolis.jpg">
+          <div class="time">{{ timetable(25) }}</div>
+          <div class="speaker">Karolis Kalantojus</div>
+          <div class="topic">Odoo Connector<br><em title="Pranešimas lietuvių kalba.">lietuvių k.</em></div>
+      </div>
+      <div class="full-box">
+          <div class="time">{{ timetable(0) }}</div>
+          <div class="topic">Renginio uždarymas</div>
+      </div>
+
       <div class="extra-space"></div>
       <h1>Informacija apie renginį</h1>
 
@@ -50,6 +145,12 @@
           <p>Reguliarus renginys vykstantis kas mėnesį, darbo dieną, vakare po
           darbo.</p>
           <p>Daugiau informacijos: <a href="http://vilniuspy.lt" target="_blank">vilniuspy.lt</a>.</p>
+      </div>
+
+      <div class="half-box">
+          <h2>Django Girls</h2>
+          <p>Sukurk savo pirmąjį interneto tinklalapį Django Girls renginyje Kaune!</p>
+          <p>Daugiau informacijos: <a href="https://djangogirls.org/kaunas/" target="_blank">djangogirls.org/kaunas/</a>.</p>
       </div>
 
       <a name="bendruomene"></a>
