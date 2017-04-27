@@ -4,7 +4,7 @@
 
 {% block body %}
   <div class="wrapper">
-      <h1>Programa</h1>
+      <h1><a href="#programa" name="programa">Programa</a></h1>
 
       {% set timetable = Timetable(10) %}
 
@@ -24,11 +24,12 @@
           <div class="speaker">Andrew Svetlov</div>
           <div class="topic">Making Open Source libraries<br><em title="Pranešimas anglų kalba.">anglų k.</em></div>
       </div>
+
       <div class="half-box speaker-box">
-          <img src="/media/2016/mantas.jpg">
-          <div class="time">{{ timetable(25) }}</div>
-          <div class="speaker">Mantas Zimnickas</div>
-          <div class="topic">import antigravity<br><em title="Pranešimas lietuvių kalba.">lietuvių k.</em></div>
+          <img src="/media/2017/rivo.png">
+          <div class="time">{{ timetable(30) }}</div>
+          <div class="speaker">Rivo Laks</div>
+          <div class="topic">Django, React and Webpack<br><em title="Pranešimas anglųkalba.">anglų k.</em></div>
       </div>
 
       <div class="full-box">
@@ -37,10 +38,10 @@
       </div>
 
       <div class="half-box speaker-box">
-          <img src="/media/2017/irmantas.jpg">
+          <img src="/media/2016/mantas.jpg">
           <div class="time">{{ timetable(25) }}</div>
-          <div class="speaker">Irmantas Ramoška</div>
-          <div class="topic">Run Your Pyramid Application on Production Server<br><em title="Pranešimas anglų kalba.">anglų k.</em></div>
+          <div class="speaker">Mantas Zimnickas</div>
+          <div class="topic">import antigravity<br><em title="Pranešimas lietuvių kalba.">lietuvių k.</em></div>
       </div>
 
       <div class="half-box">
@@ -58,16 +59,16 @@
       </div>
 
       <div class="half-box speaker-box">
+          <img src="/media/2017/irmantas.jpg">
+          <div class="time">{{ timetable(25) }}</div>
+          <div class="speaker">Irmantas Ramoška</div>
+          <div class="topic">Run Your Pyramid Application on Production Server<br><em title="Pranešimas anglų kalba.">anglų k.</em></div>
+      </div>
+      <div class="half-box speaker-box">
           <img src="/media/2017/simona.png">
           <div class="time">{{ timetable(15) }}</div>
           <div class="speaker">Simona Bekeraitė</div>
           <div class="topic">Python in astrophysics: an overview<br><em title="Pranešimas anglų kalba.">anglų k.</em></div>
-      </div>
-      <div class="half-box speaker-box">
-          <img src="/media/2016/petras.png">
-          <div class="time">{{ timetable(25) }}</div>
-          <div class="speaker">Petras Zdanavičius</div>
-          <div class="topic">Prototipinio OOP įgyvendinimas su Python<br><em title="Pranešimas lietuvių kalba.">lietuvių k.</em></div>
       </div>
 
       <div class="full-box">
@@ -76,18 +77,24 @@
       </div>
 
       <div class="half-box speaker-box">
+          <img src="/media/2016/petras.png">
+          <div class="time">{{ timetable(25) }}</div>
+          <div class="speaker">Petras Zdanavičius</div>
+          <div class="topic">Prototipinio OOP įgyvendinimas su Python<br><em title="Pranešimas lietuvių kalba.">lietuvių k.</em></div>
+      </div>
+      <div class="half-box speaker-box">
           <img src="/media/2016/yvl.jpg">
           <div class="time">{{ timetable(25) }}</div>
           <div class="speaker">Justas Sadzevičius</div>
           <div class="topic">Transakcinis Python objektų saugojimas Mongo DB, PostgreSQL, failų sistemoje<br><em title="Pranešimas lietuvių kalba.">lietuvių k.</em></div>
       </div>
+
       <div class="half-box speaker-box">
           <img src="/media/2017/sarunas.jpg">
           <div class="time">{{ timetable(25) }}</div>
           <div class="speaker">Šarūnas Navickas</div>
           <div class="topic">Duomenų apdorojimas naudojant Python dideliu mastu<br><em title="Pranešimas lietuvių kalba.">lietuvių k.</em></div>
       </div>
-
       <div class="half-box speaker-box">
           <img src="/media/2017/karolis.jpg">
           <div class="time">{{ timetable(25) }}</div>
@@ -100,7 +107,7 @@
       </div>
 
       <div class="extra-space"></div>
-      <h1>Informacija apie renginį</h1>
+      <h1><a href="#informacija" name="informacija">Informacija apie renginį</a></h1>
 
       <p>Po aštuonių metų pertraukos PyConLT grįžta į Kauną!</p>
 
@@ -113,7 +120,7 @@
 
       <div class="extra-space"></div>
 
-      <h1>Tapkite konferencijos rėmėju</h1>
+      <h1><a href="#remejams" name="remejams">Tapkite konferencijos rėmėju</a></h1>
 
       <p>Tapkite mūsų parteriais ir būkite matomas konferencijos metu su
       vienu iš siūlomų rėmimo paketu.</p>
@@ -124,10 +131,10 @@
 
       <div class="extra-space"></div>
 
-      <h1>Rėmėjai</h1>
+      <h1><a href="#remejai" name="remejai">Rėmėjai</a></h1>
 
       <div class="sponsors">
-          <a href="http://revelsystems.com/lt/" target="_blank"><img src="/images/revel-logo.png"></a>
+          <a href="http://revelsystems.com/lt/" target="_blank"><img src="/images/revel-logo.png" title="Revel Systems"></a>
       </div>
 
       <div class="extra-space"></div>
@@ -136,6 +143,7 @@
           <a href="https://www.versada.eu/" target="_blank"><img src="/images/versada-silver-logo.jpg" title="Versada"></a>
           <a href="http://pov.lt/" target="_blank"><img src="/images/pov-logo.jpg" title="Programmers of Vilnius"></a>
           <a href="http://nivc.ktu.edu/slt.htm" target="_blank"><img src="/images/KTU-Startup-space-silver-logo.jpg" title="KTU Startup Space"></a>
+          <a href="http://s3i.strategicstaff.com/" target="_blank"><img src="/images/sss-logo.png" title="Strategic Staffing Solutions International"></a>
       </div>
 
       <div class="extra-space"></div>
@@ -146,7 +154,7 @@
 
       <div class="extra-space"></div>
 
-      <h1>Kiti renginiai</h1>
+      <h1><a href="#renginiai" name="renginiai">Kiti renginiai</a></h1>
 
       <div class="half-box">
           <h2>VilniusPy</h2>
@@ -161,9 +169,7 @@
           <p>Daugiau informacijos: <a href="https://djangogirls.org/kaunas/" target="_blank">djangogirls.org/kaunas/</a>.</p>
       </div>
 
-      <a name="bendruomene"></a>
-      <div class="extra-space"></div>
-      <h1><a href="#bendruomene">Python programuotojų bendruomenė internete</a></h1>
+      <h1><a href="#bendruomene" name="bendruomene">Python programuotojų bendruomenė internete</a></h1>
 
       <div class="half-box">
           <h2>Google+ grupė</h2>
