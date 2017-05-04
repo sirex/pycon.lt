@@ -35,7 +35,8 @@ def main():
 
         # Live reload
         live = livereload.Server()
-        live.watch(args.output)
+        live.watch('content', delay=2)
+        live.watch('theme', delay=2)
         live.serve(port=35729)
 
     except KeyboardInterrupt:
