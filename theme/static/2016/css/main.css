@@ -1,6 +1,20 @@
+@media only screen and (max-device-width: 480px) {
+    body {
+        font-size: 30px;
+    }
+    .main-header, footer {
+        width: 900px;
+    }
+}
+
+@media only screen and (min-device-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+}
+
 body {
     margin: 0;
-    font-size: 16px;
     font-family: Ubuntu, Helvetica, Arial, sans-serif;
     background-color: #FFF;
     color: #000;
@@ -68,7 +82,7 @@ body {
 }
 
 .main-header .tagline {
-    font-size: 20px;
+    font-size: 120%;
     font-weight: bold;
     padding: 20px;
     margin-top: -20px;
@@ -85,11 +99,11 @@ body {
 
 .page {
     width: 800px;
-    font-size: 16px;
+    font-size: 100%;
 }
 
 footer {
-    font-size: 12px;
+    font-size: 80%;
     background-color: #E6E8EA;
     border-top: 1px solid #D8DBDE;
     color: #666667;
@@ -119,7 +133,7 @@ footer a {
 .full-box h2 {
     color: #1C3B56;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 120%;
     margin-top: 0px;
 }
 
@@ -143,7 +157,7 @@ footer a {
 
 .speaker-box .speaker {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 100%;
     padding-bottom: 8px;
 }
 
@@ -159,7 +173,7 @@ footer a {
 h1, h1 > a {
     color: #1C3B56;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 150%;
     margin-top: 20px;
     text-decoration: none;
 }
@@ -195,7 +209,7 @@ h1, h1 > a {
     padding: 6px 16px;
     border-radius: 4px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 100%;
     font-weight: bold;
 }
 
@@ -217,7 +231,7 @@ h1, h1 > a {
     padding: 12px 32px;
     border-radius: 6px;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 160%;
     font-weight: bold;
 }
 
@@ -287,7 +301,7 @@ h1, h1 > a {
     padding: 12px 32px;
     border-radius: 8px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 140%;
 }
 
 table.table {
@@ -299,7 +313,7 @@ table.table {
 table.table td, table.table th {
     padding: 8px 10px;
     vertical-align: top;
-    font-size: 16px;
+    font-size: 100%;
     border-bottom: 1px solid #E1EEF4;
 }
 table.table tbody td:first-child {
