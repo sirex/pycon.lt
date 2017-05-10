@@ -17,7 +17,7 @@ In PyConLT speakers will be able to present in English or Lithuanian.
 Place
 =====
 
-PyConLT will be held at Kaunas University of Technology Faculty of Informatics.
+PyConLT will be held at Kaunas University of Technology.
 The Faculty of Informatics carries out research in informatics and plays a
 central role in our modern information society.
 
@@ -36,3 +36,5 @@ Conference is organized by:
 - `Jurgis Pralgauskis <https://www.linkedin.com/in/jurgispr/>`_
 - `Laurynas Speičys <https://www.linkedin.com/in/laurynas>`_
 - `Mantas Zimnickas <https://www.linkedin.com/in/sirex/>`_
+- `Andrejus Antoninovas <https://www.linkedin.com/in/andrejus-antoninovas-58a802b6>`_
+- `Neda Buinevičiūtė <https://www.linkedin.com/in/neda-buineviciute-58784875>`_
