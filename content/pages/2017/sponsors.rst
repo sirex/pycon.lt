@@ -66,9 +66,15 @@ We offer consulting, as well as custom software development services.
 Versada
 =======
 
-Versada kuria unikalius sprendimus, kurie padeda įgyvendinti verslo idėjas.
-Mūsų klientai nebijo išeiti iš komforto zonos ir ieško naujų iššūkių. Tuo ir
-esame panašūs. Todėl ir mūsų darbo rezultatas – toks, kuriuo didžiuojamės.
+Our team consists of young talented developers and project managers who are 
+passionate about their work and have extensive Odoo (formerly OpenERP) 
+knowledge. Starting with a few senior developers in 2010, today we are a 
+strong international team and Python has almost become our native language.
+
+Today we can be proud to have more than 70 Odoo projects experience that was
+done in Europe, Australia and North America. We have experience with Odoo
+since 2008 with Odoo v4 (formerly Tiny v4). We are happy that we can
+improve our knowledge together with the latest Odoo versions.
 
 
 Strategic Staffing Solutions
