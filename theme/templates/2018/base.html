@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+        {% block head %}
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <meta charset="utf-8" />
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="PyConLT 2017">
+        <meta property="og:description" content="Gegužės 13 d., Kaunas.">
+        <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/2017/img/pyconlt_logo_small.png">
+        <meta property="og:url" content="http://pycon.lt">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/2016/css/main.css" />
+        {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+        {% endif %}
+        {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+        {% endif %}
+        {% endblock head %}
+        {% if LIVERELOAD %}
+        <script type="text/javascript" src="http://127.0.0.1:35729/livereload.js"></script>
+        {% endif %}
+</head>
+
+<body id="index" class="home">
+  <header class="main-header">
+    <nav class="top-bar">
+        <div class="wrapper">
+            {% for item in articles %}
+            {%- if article and item.url == article.url %}<a href="{{ SITEURL }}/{{ item.url }}" class="active">
+                {{ item.slug }}
+            </a>{%- else %}<a href="{{ SITEURL }}/{{ item.url }}">
+                {{ item.slug }}
+            </a>{% endif %}
+            {% endfor %}
+        </div>
+    </nav>
+
+    {% block header %}
+    {% endblock %}
+  </header>
+
+
+  {% block body %}
+  <div class="wrapper">
+    {% block content %}
+    {% endblock %}
+  </div>
+  {% endblock %}
+
+  <footer id="contentinfo" class="body">
+    <div class="wrapper">
+    <p class="center">
+      Source code of this website:
+      <a href="https://github.com/sirex/pycon.lt">
+        github.com/sirex/pycon.lt
+      </a>.
+    </p>
+    <address id="about" class="vcard body">
+    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+    which takes great advantage of <a href="http://python.org">Python</a>.
+    </address>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+Konferencija PyCon-LT 2018
+##########################
+
+:date: 2017-08-21
+:slug: 2018
+:template: 2018/article
